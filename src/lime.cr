@@ -166,10 +166,11 @@ module Lime
   def print(string : Colorize::Object(String), x : Int32, y : Int32)
     fore = string.@fore
     back = string.@back
+    mode = string.@mode
     object = string.@object.to_s
 
     object.each_char_with_index do |char, i|
-      Lime.print(char.colorize(fore).back(back), x + i, y)
+      Lime.print(char.colorize(fore).back(back).mode(mode), x + i, y)
     end
   end
 
