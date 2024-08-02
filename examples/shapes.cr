@@ -1,4 +1,4 @@
-require "../lime"
+require "../src/lime.cr"
 
 # Create the shapes:
 rectangle1 = Rectangle.new(2, 1, 10, 5, Default, :light_green)

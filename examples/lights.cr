@@ -1,4 +1,4 @@
-require "../lime"
+require "../src/lime.cr"
 
 # Create the lights:
 # They are red, green and blue rectangles with doubled lines

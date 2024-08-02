@@ -1,4 +1,4 @@
-require "../lime"
+require "../src/lime.cr"
 
 # Load the image:
 image_path = "#{__DIR__}/image.png"

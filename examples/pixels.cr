@@ -1,4 +1,4 @@
-require "../lime"
+require "../src/lime.cr"
 
 # Captain Viridian from the game VVVVVV
 VIRIDIAN = <<-VIRIDIAN

@@ -1,4 +1,4 @@
-require "../lime"
+require "../src/lime.cr"
 
 # This will be used to detect if there was a collision between the mouse
 # and the target's hitbox
